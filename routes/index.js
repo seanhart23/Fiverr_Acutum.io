@@ -4,6 +4,7 @@ var express    = require('express'),
     
 router.get('/', function(req, res){
     res.render('index');
+    console.log("Someone visited...")
 });
 
 router.get('/supply', function(req, res){
