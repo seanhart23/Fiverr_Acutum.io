@@ -810,7 +810,7 @@ input, textarea, .form-check-input {
         font-size: 20px;
     }
 
-    .-body .contact-section, .-body .contact-section .contact-inner {
+    .modal-body .contact-section, .-body .contact-section .contact-inner {
         padding: 25px 10px;
     }
 
