@@ -35,6 +35,10 @@ body {
     color: #002956;
 }
 
+.display-on-mobile {
+    display: none;
+}
+
 h1 {
     font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 64px;
@@ -93,6 +97,7 @@ h4 {
 
 body.modal-open {
     overflow: hidden;
+    margin-right: 20px;
 }
 
 .contact {
@@ -212,6 +217,10 @@ body.modal-open {
     width: 65%!important;
     margin: 15px auto;
     text-align: left;
+}
+
+.modal-body .contact-section, .modal-body .contact-section .contact-inner {
+    padding: 25px 50px;
 }
 
 textarea, .form-check-input {
@@ -509,6 +518,10 @@ textarea, .form-check-input {
     top: 25px;
 }
 
+.carousel-container .subtext p {
+    width: 75%;
+}
+
 .carousel-container table {
     width: 70%;
     margin: auto;
@@ -586,12 +599,12 @@ textarea, .form-check-input {
     background-image: url("/media/supply-banner.png");
     background-size: contain;
     /* background-position: 0% 30%;; */
-    padding: 100px;
+    padding: 125px 100px 50px 100px;
     background-repeat: no-repeat;
 }
 
 .main-supply h4, .main-data h4 {
-    margin-top: 75px;
+    margin-top: 40px;
     font-size: 24px;
 }
 
@@ -626,6 +639,247 @@ textarea, .form-check-input {
     background-image: url("/media/data-banner.png");
     background-size: contain;
     /* background-position: 0% 30%;; */
-    padding: 100px;
+    padding: 125px 100px 50px 100px;
     background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 768px) {
+
+    .carousel-container {
+        padding: 25px;
+    }
+
+    .carousel-container .logo {
+        width: 40px;
+    }
+
+    .carousel-container .subtext {
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .carousel-container .subtext button {
+        position: relative;
+        display: block;
+        top: 0px;
+        right: 0px;
+        width: 75%;
+        margin: 25px auto;
+    }
+
+    .carousel-container .subtext p {
+        width: 100%;
+    }
+
+    .carousel-container table {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .client-portal {
+        top: 80%;
+        right: 10px;
+    }
+
+    .copyright {
+        margin: 0px;
+    }
+
+    .contact-inner img {
+        width: 180px;
+    }
+
+    .contact-inner {
+        padding: 20px;
+    }
+
+    .contact-inner h4 {
+        font-size: 20px;
+    }
+
+    .contact-section {
+        padding: 20px;
+    }
+
+    .display-on-mobile {
+        display: inline;
+    }
+
+    .dock {
+        padding: 50px 0px;
+    }
+    
+    .dock button {
+        margin: 0px auto;
+    }
+
+    .dock img {
+        /* height: 100px; */
+    }
+
+    .dock .text-box {
+        padding: 35px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 30px!important;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .expert .info-box-left {
+        padding: 50px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .footer a {
+        padding-left: 0px;
+        display: inline-block;
+    }
+
+    .form-control-lg, .form-check {
+        width: 100%!important;
+    }
+
+    .leadership h1 {
+        font-size: 40px!important;
+    }
+
+    .learn, .leadership {
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .learn h1 {
+        font-size: 40px!important;
+    }
+
+    .logistics {
+        padding: 25px;
+    }
+
+    .logistics .background {
+        display: none;
+    }
+
+    .logistics .box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logistics .text-box {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main {
+        padding: 30px;
+    }
+
+    .main-data, .main-supply {
+        padding: 15px;
+    }
+
+    .main-supply h4, .main-data h4 {
+        margin-top: 50px;
+        font-size: 20px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .mobile-header {
+        text-align: center;
+    }
+
+    .mobile-header h4 {
+        font-size: 20px;
+    }
+
+    .modal-body .contact-section, .modal-body .contact-section .contact-inner {
+        padding: 25px 10px;
+    }
+
+    .navbar-brand img {
+        top: 20px;
+        left: 20px;
+    }
+
+    .nav-item {
+        text-align: left;
+        width: auto;
+    }
+
+    .platform {
+        padding: 50px;
+    }
+
+    .platform .container {
+        padding: 0px;
+    }
+
+    .platform h1 {
+        text-align: center;
+        font-size: 40px!important;
+        margin-bottom: 50px;
+    }
+
+    .platform .learn-more {
+        width: 100%;
+    }
+
+    .platform .title {
+        font-size: 20px;
+    }
+
+    .simulation .info-box-right, .transparency .info-box-right {
+        padding: 25px;
+    }     
+
+    .simulation, .transparency {
+        padding-bottom: 0px;
+    }
+
+    .simulation .info-box-right h4, .transparency .info-box-right h4 {
+        font-size: 24px;
+        text-align: center;
+    }        
+
+    .simulation .placeholder, .transparency .placeholder {
+        zoom: 75%;
+    }
+
+    .social {
+        font-size: 30px;
+    }
+
+    .subfooter {
+        text-align: center;
+    }
+
+    .subfooter .contact {
+        display: none;
+    }
+
+    .subfooter .logo {
+        margin-left: 0px;
+        padding-bottom: 25px;
+    }
+
+    .subtext {
+        padding: 25px;
+    }
+  }
