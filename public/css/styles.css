@@ -95,7 +95,7 @@ h4 {
 
 /*** Footer ***/
 
-body.-open {
+body.modal-open {
     overflow: hidden;
     margin-right: 20px;
 }
@@ -114,7 +114,7 @@ body.-open {
     box-shadow: 2px 2px 2px black;
 }
 
-.-dialog {
+.modal-dialog {
     min-width: 75%;
     max-height: 75vh;
 }
