@@ -95,7 +95,7 @@ h4 {
 
 /*** Footer ***/
 
-body.modal-open {
+body.-open {
     overflow: hidden;
     margin-right: 20px;
 }
@@ -114,7 +114,7 @@ body.modal-open {
     box-shadow: 2px 2px 2px black;
 }
 
-.modal-dialog {
+.-dialog {
     min-width: 75%;
     max-height: 75vh;
 }
@@ -219,11 +219,11 @@ body.modal-open {
     text-align: left;
 }
 
-.modal-body .contact-section, .modal-body .contact-section .contact-inner {
+.-body .contact-section, .-body .contact-section .contact-inner {
     padding: 25px 50px;
 }
 
-textarea, .form-check-input {
+input, textarea, .form-check-input {
     border: 2px solid #002956;
 }
 /*** Landing Page ***/
@@ -796,8 +796,9 @@ textarea, .form-check-input {
 
     .main-supply h4, .main-data h4 {
         margin-top: 50px;
-        font-size: 20px;
+        font-size: 18px;
         padding-left: 0px;
+        padding-right: 0px;
         text-align: center;
     }
 
@@ -809,7 +810,7 @@ textarea, .form-check-input {
         font-size: 20px;
     }
 
-    .modal-body .contact-section, .modal-body .contact-section .contact-inner {
+    .-body .contact-section, .-body .contact-section .contact-inner {
         padding: 25px 10px;
     }
 
