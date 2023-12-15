@@ -44,7 +44,7 @@ router.post('/contact', function(req, res){
     })
 
     const mailOpts = {
-        to: 'hello@absideoninteractive.com',
+        to: 'info@uneelabs.com',
         subject: "New Message from Acutum.io Website",
         html: 'You have just recieved a message from your website!</p><br><b>Name:</b> ' + newEmail.name + "<div><b>Email:</b> " + newEmail.email + "</div><div><b>Opt into Newsletter:</b> " + newsletter + "</div><div><b>Message:</b> " + newEmail.message
     }
