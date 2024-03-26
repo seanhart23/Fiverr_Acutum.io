@@ -1,0 +1,886 @@
+/* 
+
+Brand Colors
+
+Primary Blue - #4FB2CC
+Primary Green - #95CE80
+Dark Blue - #002956
+Gray Blue - #EAEDEF
+Dark Dark Gray - #202020
+
+*/
+
+@font-face {
+    font-family: 'Effra';
+    src: url('../fonts/Effra_Trial_Rg.ttf');
+}
+
+@font-face {
+    font-family: 'Effra-light';
+    src: url('../fonts/Effra_Trial_Lt.ttf');
+}
+
+@font-face {
+    font-family: 'Effra-Med';
+    src: url('../fonts/Effra_Trial_Md.ttf');
+}
+
+@font-face {
+    font-family: 'Effra-Bold';
+    src: url('../fonts/Effra_Trial_Bd.ttf');
+}
+
+body {
+    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #002956;
+}
+
+.display-on-mobile {
+    display: none;
+}
+
+h1 {
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 29px;
+}
+/*** Navbar ***/
+
+.client-portal {
+    width: auto;
+    background-color: #4FB2CC;
+    color: white;
+    border-radius: 50px;
+    padding: 7px 40px;
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    /* box-shadow: 2px 2px 2px black; */
+}
+
+.navbar {
+    padding: 25px;
+}
+
+.navbar-brand img {
+    height: 40px;
+    position: absolute;
+    top: calc(50% - 20px);
+} 
+
+.nav-item {
+    width: 125px;
+    text-align: center;
+}
+
+.nav-link {
+    color: #002956;
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+/*** Footer ***/
+
+body.modal-open {
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.contact {
+    width: auto;
+    background-color: #002956;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.modal-dialog {
+    min-width: 75%;
+    max-height: 75vh;
+}
+
+.copyright {
+    margin-right: 100px;
+}
+
+.footer {
+    padding: 10px 25px;
+    background: #002956;
+    color: white;
+    font-size: 12px;
+    position: relative;
+}
+
+.footer a {
+    color: white;
+    font-size: 14px;
+    padding: 0px 10px;
+}
+
+.footer table {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.footer-item {
+    padding-bottom: 10px;
+}
+
+.social {
+    font-size: 50px;
+    text-align: right;
+}
+
+.social i {
+    margin: 0px 10px;
+}
+
+.subfooter {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.subfooter a {
+    text-decoration: none;
+    color: #002956;
+}
+
+.subfooter .logo {
+    width: 65%;
+    position: relative;
+    margin-left: 20px;
+}
+
+.subfooter .title {
+    color: #002956;
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-bottom: 0px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.subfooter ul {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+/*** Contact Section ***/
+
+.contact-inner {
+    background-color: white;
+    text-align: center;
+    padding: 75px 100px;
+    position: relative;
+}
+
+.contact-inner h4 {
+    width: 75%;
+    margin: auto;
+}
+
+.contact-inner img {
+    position: absolute;
+    top: -150px;
+    left: -125px;
+    width: 250px;
+    z-index: 2;
+}
+.contact-section {
+    background: #EAEDEF;
+    padding: 100px 125px;
+    overflow: hidden;
+}
+
+.form-control-lg, .form-check {
+    width: 65%!important;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.-body .contact-section, .-body .contact-section .contact-inner {
+    padding: 25px 50px;
+}
+
+input, textarea, .form-check-input {
+    border: 2px solid #002956;
+}
+/*** Landing Page ***/
+
+.cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,41,86,.8);
+    font-size: 24px;
+    padding: 100px 100px 100px 0px;
+}
+
+.dock {
+    padding: 125px;
+    background-image: url("/media/dock.jpg");
+    background-size: cover;
+}
+
+.dock button {
+    width: auto;
+    background-color: #4FB2CC;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px 5px 30px;
+    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-left: 5px;
+    border: none;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+
+.dock button svg {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.dock img {
+    height: 225px;
+    position: absolute;
+    left: -72px;
+    top: 40px;
+}
+
+.dock .text-box {
+    padding: 50px 75px;
+    height: auto;
+    width: 70%;
+    margin: auto;
+    background: white;
+    font-size: 18px;
+    position: relative;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.expert .info-box-left {
+    font-size: 32px;
+    padding: 75px 125px;
+    color: #002956;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.expert .info-box-right {
+    background-image: url("/media/office.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 0px;
+    color: white;
+}
+
+.bullet-text {
+    line-height: 50px;
+    padding-top: 40px;
+}
+
+.expert .info-box-right table {
+    z-index: 2;
+    position: relative;
+    padding: 65px;
+    margin: 50px 75px;
+    font-size: 55px;
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.expert .info-box-right table tr:nth-child(even) {
+    vertical-align: middle;
+}
+
+.expert .info-box-right table .bullet-subtext {
+    font-size: 20px;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* padding-bottom: 50px; */
+}
+
+.expert .info-box-right table img {
+    height: 80px;
+    padding-right: 20px;
+}
+
+.image-box {
+    background: lightgreen;
+    width: 100%;
+    height: 250px;
+}
+
+.image-box-title {
+    background: white;
+    padding: 15px 25px;
+    margin-top: -25px;
+    width: 90%;
+    border-bottom: 2px solid #002956;
+    font-size: 26px;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.leadership {
+    padding: 100px 125px;
+    background: #95CE80;
+}
+
+.leadership h1 {
+    margin-bottom: 50px;
+}
+
+.leadership .image {
+    background: #002956;
+    height: 300px;
+    width: 100%;
+}
+
+.leadership .image img {
+    height: 100%;
+}
+
+.leadership .name {
+    font-size: 26px;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px 0px 0px 0px;
+}
+
+.leadership .role {
+    font-family: 'Effra-Light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.learn {
+    padding: 100px 125px;
+    background: #EAEDEF;
+}
+
+.learn h1 {
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+    font-size: 55px;
+}
+
+.learn p {
+    padding: 25px 40px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Effra-light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    height: auto;
+    color: #002956;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/media/banner.png");
+    background-size: cover;
+    background-position: 0% 30%;;
+    padding: 100px;
+}
+
+.main button, .submit {
+    width: auto;
+    background-color: #002956;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+.main .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    z-index: 1;
+    position: relative;
+}
+
+.platform {
+    padding: 100px 125px;
+    position: relative;
+    z-index: 3;
+}
+
+.platform .byline {
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4FB2CC;
+    font-size: px;
+}
+
+.platform .container {
+    padding: 50px;
+}
+
+.platform h1 {
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+    font-size: 55px;
+}
+
+.platform .learn-more {
+    width: auto;
+    border: 2px solid #002956;
+    color: #002956;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    /* box-shadow: 2px 2px 2px black; */
+}
+.platform .row {
+    border-bottom: 2px solid #002956;
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+}
+
+.platform .title {
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    border-bottom: 0px;
+    text-transform: none;
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+.subtext {
+    background: #f4f6f7;
+    padding: 25px 75px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 2px solid #002956;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/*** Supply Chain ***/
+
+.carousel-container {
+    background: #002956;
+    padding: 100px 125px;
+    color: white;
+}
+
+.carousel-container .subtext button {
+    width: auto;
+    background-color: #4FB2CC;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px 5px 30px;
+    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    border: none;
+    text-transform: uppercase;
+    /* box-shadow: 2px 2px 2px black; */
+    line-height: 18px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.carousel-container .subtext p {
+    width: 75%;
+}
+
+.carousel-container table {
+    width: 70%;
+    margin: auto;
+    font-size: 31px;
+    margin-bottom: 25px;
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-inner img {
+    width: 75%;
+    margin: auto;
+}
+
+.carousel-container .logo {
+    width: 75px;
+    margin: auto 25px 15px 5px;
+}
+
+.carousel-container .subtext {
+    background: none;
+    width: 75%;
+    margin: auto;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.logistics {
+    background: #EAEDEF;
+    padding: 50px 100px;
+    position:relative;
+}
+
+.logistics .background {
+    position: absolute;
+    width: 48%;
+    background: lightgreen;
+    height:100%;
+    top: 0;
+    right: 0;
+    background-image: url("/media/trucks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logistics .box {
+    background: white;
+    width: 60%;
+    padding: 25px 50px;
+    color: #002956;
+    box-shadow: 2px 2px 4px gray;
+    position: relative;
+    z-index: 3;
+}
+
+.logistics .box p {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logistics .text-box {
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: black;
+    font-size: 18px;
+}
+
+.main-supply {
+    height: auto;
+    color: #002956;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/media/supply-banner.png");
+    background-size: contain;
+    /* background-position: 0% 30%;; */
+    padding: 125px 100px 50px 100px;
+    background-repeat: no-repeat;
+}
+
+.main-supply h4, .main-data h4 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.simulation, .transparency {
+    padding-bottom: 50px;
+}
+
+.simulation .info-box-right, .transparency .info-box-right {
+    padding: 40px 100px;
+    color: #002956;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.simulation .info-box-right h4, .transparency .info-box-right h4 {
+    font-size: 36px;
+}
+
+.simulation .placeholder, .transparency .placeholder {
+    height: 250px;
+    width:400px;
+    margin: auto;
+}
+
+/*** Data Analytics ***/
+
+.main-data {
+    height: auto;
+    color: #002956;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/media/data-banner.png");
+    background-size: contain;
+    /* background-position: 0% 30%;; */
+    padding: 125px 100px 50px 100px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+
+    .carousel-container {
+        padding: 25px;
+    }
+
+    .carousel-container .logo {
+        width: 40px;
+    }
+
+    .carousel-container .subtext {
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .carousel-container .subtext button {
+        position: relative;
+        display: block;
+        top: 0px;
+        right: 0px;
+        width: 75%;
+        margin: 25px auto;
+    }
+
+    .carousel-container .subtext p {
+        width: 100%;
+    }
+
+    .carousel-container table {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .client-portal {
+        top: 80%;
+        right: 10px;
+    }
+
+    .copyright {
+        margin: 0px;
+    }
+
+    .contact-inner img {
+        width: 180px;
+    }
+
+    .contact-inner {
+        padding: 20px;
+    }
+
+    .contact-inner h4 {
+        font-size: 20px;
+    }
+
+    .contact-section {
+        padding: 20px;
+    }
+
+    .display-on-mobile {
+        display: inline;
+    }
+
+    .dock {
+        padding: 50px 0px;
+    }
+    
+    .dock button {
+        margin: 0px auto;
+    }
+
+    .dock img {
+        /* height: 100px; */
+    }
+
+    .dock .text-box {
+        padding: 35px;
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 30px!important;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .expert .info-box-left {
+        padding: 50px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .footer a {
+        padding-left: 0px;
+        display: inline-block;
+    }
+
+    .form-control-lg, .form-check {
+        width: 100%!important;
+    }
+
+    .leadership h1 {
+        font-size: 40px!important;
+    }
+
+    .learn, .leadership {
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .learn h1 {
+        font-size: 40px!important;
+    }
+
+    .logistics {
+        padding: 25px;
+    }
+
+    .logistics .background {
+        display: none;
+    }
+
+    .logistics .box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logistics .text-box {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .main {
+        padding: 30px;
+    }
+
+    .main-data, .main-supply {
+        padding: 15px;
+    }
+
+    .main-supply h4, .main-data h4 {
+        margin-top: 50px;
+        font-size: 18px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .mobile-header {
+        text-align: center;
+    }
+
+    .mobile-header h4 {
+        font-size: 20px;
+    }
+
+    .modal-body .contact-section, .-body .contact-section .contact-inner {
+        padding: 25px 10px;
+    }
+
+    .navbar-brand img {
+        top: 20px;
+        left: 20px;
+    }
+
+    .nav-item {
+        text-align: left;
+        width: auto;
+    }
+
+    .platform {
+        padding: 50px;
+    }
+
+    .platform .container {
+        padding: 0px;
+    }
+
+    .platform h1 {
+        text-align: center;
+        font-size: 40px!important;
+        margin-bottom: 50px;
+    }
+
+    .platform .learn-more {
+        width: 100%;
+    }
+
+    .platform .title {
+        font-size: 20px;
+    }
+
+    .simulation .info-box-right, .transparency .info-box-right {
+        padding: 25px;
+    }     
+
+    .simulation, .transparency {
+        padding-bottom: 0px;
+    }
+
+    .simulation .info-box-right h4, .transparency .info-box-right h4 {
+        font-size: 24px;
+        text-align: center;
+    }        
+
+    .simulation .placeholder, .transparency .placeholder {
+        zoom: 75%;
+    }
+
+    .social {
+        font-size: 30px;
+    }
+
+    .subfooter {
+        text-align: center;
+    }
+
+    .subfooter .contact {
+        display: none;
+    }
+
+    .subfooter .logo {
+        margin-left: 0px;
+        padding-bottom: 25px;
+    }
+
+    .subtext {
+        padding: 25px;
+    }
+  }
