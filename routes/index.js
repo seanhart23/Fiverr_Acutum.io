@@ -15,10 +15,6 @@ router.get('/analytics', function(req, res){
     res.render('analytics');
 });
 
-router.get('/welcome', function(req, res){
-    res.render('welcome');
-});
-
 //---------- NODE Mailer Routes ----------//
 router.post('/contact', function(req, res){
 
