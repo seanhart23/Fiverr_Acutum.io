@@ -15,6 +15,9 @@ router.get('/analytics', function(req, res){
     res.render('analytics');
 });
 
+router.get('/landing', function(req, res){
+    res.render('landing');
+});
 //---------- NODE Mailer Routes ----------//
 router.post('/contact', function(req, res){
 
@@ -38,8 +41,8 @@ router.post('/contact', function(req, res){
         port: 465,
         secure: true,
         auth: {
-            user: 'absideoninteractive@gmail.com',
-            pass: 'ltadsmzscafllzpf'
+            user: 'info@uneelabs.com',
+            pass: '8T5Huq4aTayZ5uL&'
         }
     })
 
