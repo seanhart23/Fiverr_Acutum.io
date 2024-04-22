@@ -628,6 +628,144 @@ input, textarea, .form-check-input {
     margin: auto;
 }
 
+/*** LP ***/
+
+.carousel-container {
+    background: #002956;
+    padding: 100px 125px;
+    color: white;
+}
+
+.carousel-container .subtext button {
+    width: auto;
+    background-color: #4FB2CC;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px 5px 30px;
+    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+    border: none;
+    text-transform: uppercase;
+    /* box-shadow: 2px 2px 2px black; */
+    line-height: 18px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.carousel-container .subtext p {
+    width: 75%;
+}
+
+.carousel-container table {
+    width: 70%;
+    margin: auto;
+    font-size: 31px;
+    margin-bottom: 25px;
+    font-family: 'Effra-Bold', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-inner img {
+    width: 75%;
+    margin: auto;
+}
+
+.carousel-container .logo {
+    width: 75px;
+    margin: auto 25px 15px 5px;
+}
+
+.carousel-container .subtext {
+    background: none;
+    width: 75%;
+    margin: auto;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.logistics {
+    background: #EAEDEF;
+    padding: 50px 100px;
+    position:relative;
+}
+
+.logistics .background {
+    position: absolute;
+    width: 48%;
+    background: lightgreen;
+    height:100%;
+    top: 0;
+    right: 0;
+    background-image: url("/media/trucks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logistics .box {
+    background: white;
+    width: 60%;
+    padding: 25px 50px;
+    color: #002956;
+    box-shadow: 2px 2px 4px gray;
+    position: relative;
+    z-index: 3;
+}
+
+.logistics .box p {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logistics .text-box {
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: black;
+    font-size: 18px;
+}
+
+.main-lp {
+    height: auto;
+    color: #002956;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/media/terminal.png");
+    background-size: contain;
+    /* background-position: 0% 30%;; */
+    padding: 125px 100px 50px 100px;
+    background-repeat: no-repeat;
+}
+
+.main-lp h4, .main-data h4 {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.simulation, .transparency {
+    padding-bottom: 50px;
+}
+
+.simulation .info-box-right, .transparency .info-box-right {
+    padding: 40px 100px;
+    color: #002956;
+    font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.simulation .info-box-right h4, .transparency .info-box-right h4 {
+    font-size: 36px;
+}
+
+.simulation .placeholder, .transparency .placeholder {
+    height: 250px;
+    width:400px;
+    margin: auto;
+}
+
+
 /*** Data Analytics ***/
 
 .main-data {
