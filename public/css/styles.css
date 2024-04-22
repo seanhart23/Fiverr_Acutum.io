@@ -698,7 +698,7 @@ input, textarea, .form-check-input {
     height:100%;
     top: 0;
     right: 0;
-    background-image: url("/media/trucks.jpg");
+    background-image: url("/media/terminal.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -733,7 +733,7 @@ input, textarea, .form-check-input {
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
-    background-image: url("/media/terminal.png");
+    background-image: url("/media/supply-banner.png");
     background-size: contain;
     /* background-position: 0% 30%;; */
     padding: 125px 100px 50px 100px;
