@@ -115,19 +115,6 @@ body.modal-open {
     margin-top: 25px;
     border: none;
     box-shadow: 2px 2px 2px black;
-    
-.contact-lp {
-    width: auto;
-    background-color: #002956;
-    color: white;
-    border-radius: 50px;
-    padding: 10px 40px;
-    font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
-    margin-top: 0px;
-    border: none;
-    box-shadow: 2px 2px 2px black;
 }
 
 .modal-dialog {
