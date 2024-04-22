@@ -733,7 +733,7 @@ input, textarea, .form-check-input {
     letter-spacing: 1px;
     position: relative;
     overflow: hidden;
-    background-image: url("/media/supply-banner.png");
+    background-image: url("/media/lp-banner.png");
     background-size: contain;
     /* background-position: 0% 30%;; */
     padding: 125px 100px 50px 100px;
