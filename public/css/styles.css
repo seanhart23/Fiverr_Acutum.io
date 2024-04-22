@@ -739,7 +739,7 @@ input, textarea, .form-check-input {
     background-image: url("/media/lp-banner.png");
     background-size: contain;
     /* background-position: 0% 30%;; */
-    padding: 125px 100px 50px 100px;
+    padding: 75px 100px 75px 10px;
     background-repeat: no-repeat;
 }
 
