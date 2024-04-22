@@ -111,6 +111,7 @@ body.modal-open {
     letter-spacing: 1px;
     margin-top: 25px;
     border: none;
+    position: absolute;
     box-shadow: 2px 2px 2px black;
 }
 
