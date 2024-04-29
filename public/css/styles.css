@@ -112,7 +112,7 @@ body.modal-open {
     font-family: 'Effra', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
-    margin-top: 25px;
+    margin-top: auto;
     border: none;
     box-shadow: 2px 2px 2px black;
 }
