@@ -763,9 +763,9 @@ input, textarea, .form-check-input {
 }
 
 .simulation .placeholder, .transparency .placeholder {
-    height: 250px;
-    width:400px;
-    margin: auto;
+    height: 360px;
+    width: 640px;
+    margin: relative;
 }
 
 
