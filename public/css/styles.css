@@ -753,7 +753,7 @@ input, textarea, .form-check-input {
 }
 
 .simulation .info-box-right, .transparency .info-box-right {
-    padding: 40px 100px;
+    padding: 100px 100px;
     color: #002956;
     font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -766,6 +766,7 @@ input, textarea, .form-check-input {
     height: 360px;
     width: 640px;
     margin: auto;
+    opacity: 0;
 }
 
 
