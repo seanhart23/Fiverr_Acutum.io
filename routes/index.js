@@ -1,22 +1,32 @@
 var express    = require('express'),
     router     = express.Router(),
+    page = "page",
     nodemailer = require('nodemailer');
     
 router.get('/', function(req, res){
-    res.render('index');
+    page = "home";
+    res.render('index', {page: page});
     console.log("Someone visited...")
 });
 
 router.get('/supply', function(req, res){
-    res.render('supplychain');
+    page = "supply";
+    res.render('supplychain', {page: page});
 });
 
 router.get('/analytics', function(req, res){
-    res.render('analytics');
+    page = "analytics";
+    res.render('analytics', {page: page});
 });
 
 router.get('/lp', function(req, res){
-    res.render('lp');
+    page = "landing";
+    res.render('lp', {page: page});
+});
+
+router.get('/meet', function(req, res){
+    page = "meet";
+    res.render('meet', {page: page});
 });
 
 //---------- NODE Mailer Routes ----------//

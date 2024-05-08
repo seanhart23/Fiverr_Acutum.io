@@ -150,7 +150,7 @@ body.modal-open {
 }
 
 .social {
-    font-size: 50px;
+    font-size: 40px;
     text-align: right;
 }
 
@@ -611,17 +611,17 @@ input, textarea, .form-check-input {
     font-size: 24px;
 }
 
-.simulation, .transparency {
+.simulation, .transparency, .video-panel {
     padding-bottom: 50px;
 }
 
-.simulation .info-box-right, .transparency .info-box-right {
+.simulation .info-box-right, .transparency .info-box-right, .video-panel .info-box-right {
     padding: 40px 100px;
     color: #002956;
     font-family: 'Effra-Med', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.simulation .info-box-right h4, .transparency .info-box-right h4 {
+.simulation .info-box-right h4, .transparency .info-box-right h4, .video-panel .info-box-right h4 {
     font-size: 36px;
 }
 
@@ -784,6 +784,34 @@ input, textarea, .form-check-input {
     background-repeat: no-repeat;
 }
 
+/*** Meet ***/
+
+.main-meet, .main-lp {
+    height: auto;
+    color: #002956;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/media/lp-banner.png");
+    background-size: contain;
+    /* background-position: 0% 30%;; */
+    padding: 100px 100px 50px 75px;
+    background-repeat: no-repeat;
+}
+
+.main-meet h4, .main-lp h4 {
+    margin-top: 75px;
+}
+
+.video-panel {
+    padding: 75px;
+}
+
+.video-panel video {
+    width: 100%;
+    clip-path: inset(1px 1px);
+}
+
 @media screen and (max-width: 768px) {
 
     .carousel-container {
@@ -870,7 +898,7 @@ input, textarea, .form-check-input {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 30px!important;
     }
 
     h4 {
@@ -927,11 +955,11 @@ input, textarea, .form-check-input {
         margin-left: 0px;
     }
 
-    .main {
+    .main, .main-lp, .main-meet {
         padding: 30px;
     }
 
-    .main-data, .main-supply {
+    .main-data, .main-supply, .main-lp, .main-meet {
         padding: 15px;
     }
 
@@ -941,6 +969,18 @@ input, textarea, .form-check-input {
         padding-left: 0px;
         padding-right: 0px;
         text-align: center;
+    }
+
+    .main-lp h4, .main-meet h4 {
+        margin-top: 70px;
+        font-size: 18px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .main-meet h2, .main-lp h2 {
+        font-size: 15px!important;
     }
 
     .mobile-header {
@@ -987,20 +1027,20 @@ input, textarea, .form-check-input {
         font-size: 20px;
     }
 
-    .simulation .info-box-right, .transparency .info-box-right {
+    .simulation .info-box-right, .transparency .info-box-right, .video-panel .info-box-right {
         padding: 25px;
     }     
 
-    .simulation, .transparency {
+    .simulation, .transparency, .video-panel {
         padding-bottom: 0px;
     }
 
-    .simulation .info-box-right h4, .transparency .info-box-right h4 {
+    .simulation .info-box-right h4, .transparency .info-box-right h4, .video-panel .info-box-right h4 {
         font-size: 24px;
         text-align: center;
     }        
 
-    .simulation .placeholder, .transparency .placeholder {
+    .simulation .placeholder, .transparency .placeholder, .video-panel .placeholder {
         zoom: 75%;
     }
 
@@ -1022,6 +1062,10 @@ input, textarea, .form-check-input {
     }
 
     .subtext {
+        padding: 25px;
+    }
+
+    .video-panel {
         padding: 25px;
     }
   }
