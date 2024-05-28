@@ -522,7 +522,7 @@ input, textarea, .form-check-input {
 }
 
 .carousel-container .subtext p {
-    width: 75%;
+    width: 100%;
 }
 
 .carousel-container table {
@@ -613,6 +613,7 @@ input, textarea, .form-check-input {
 
 .simulation, .transparency, .video-panel {
     padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 .simulation .info-box-right, .transparency .info-box-right, .video-panel .info-box-right {
@@ -629,6 +630,11 @@ input, textarea, .form-check-input {
     height: 350px;
     width:500px;
     margin: auto;
+}
+
+video {
+    height: 100%;
+    width: auto;
 }
 
 /*** LP ***/
@@ -659,7 +665,7 @@ input, textarea, .form-check-input {
 }
 
 .carousel-container .subtext p {
-    width: 75%;
+    width: 100%;
 }
 
 .carousel-container table {
@@ -737,13 +743,22 @@ input, textarea, .form-check-input {
     position: relative;
     overflow: hidden;
     background-image: url("/media/lp-banner.png");
-    background-size: contain;
+    background-size: cover;
     /* background-position: 0% 30%;; */
-    padding: 75px 100px 75px 10px;
+    padding: 40px 100px 40px 100px;
     background-repeat: no-repeat;
 }
 
-.main-lp h4, .main-data h4 {
+.main-lp h2 {
+    font-size: 34px;
+}
+
+.main-lp h4 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.main-data h4 {
     margin-top: 40px;
     font-size: 24px;
 }
@@ -786,7 +801,7 @@ input, textarea, .form-check-input {
 
 /*** Meet ***/
 
-.main-meet, .main-lp {
+.main-meet {
     height: auto;
     color: #002956;
     letter-spacing: 1px;
@@ -799,7 +814,7 @@ input, textarea, .form-check-input {
     background-repeat: no-repeat;
 }
 
-.main-meet h4, .main-lp h4 {
+.main-meet h4 {
     margin-top: 75px;
 }
 
