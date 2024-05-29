@@ -394,6 +394,21 @@ input, textarea, .form-check-input {
     font-family: 'Effra-light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#lp .info-box-right {
+    padding: 0px;
+}
+
+#lp video {
+    margin-top: 125px;
+}
+
+#lp .video-panel {
+    padding: 25px 75px 0px 75px;
+}
+
+#lp .logistics {
+    margin-top: -150px;
+}
 .main {
     height: auto;
     color: #002956;
