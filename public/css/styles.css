@@ -394,19 +394,19 @@ input, textarea, .form-check-input {
     font-family: 'Effra-light', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#lp .info-box-right {
+#lp .info-box-right, #meet .info-box-right {
     padding: 0px;
 }
 
-#lp video {
+#lp video, #meet video {
     margin-top: 125px;
 }
 
-#lp .video-panel {
+#lp .video-panel, #meet .video-panel {
     padding: 25px 75px 0px 75px;
 }
 
-#lp .logistics {
+#lp .logistics, #meet .logistics {
     margin-top: -150px;
 }
 .main {
@@ -751,7 +751,7 @@ video {
     font-size: 18px;
 }
 
-.main-lp {
+.main-lp, .main-meet {
     height: auto;
     color: #002956;
     letter-spacing: 1px;
@@ -764,11 +764,11 @@ video {
     background-repeat: no-repeat;
 }
 
-.main-lp h2 {
+.main-lp h2, .main-meet h2 {
     font-size: 34px;
 }
 
-.main-lp h4 {
+.main-lp h4, .main-meet h4 {
     margin-top: 10px;
     font-size: 22px;
 }
@@ -815,23 +815,6 @@ video {
 }
 
 /*** Meet ***/
-
-.main-meet {
-    height: auto;
-    color: #002956;
-    letter-spacing: 1px;
-    position: relative;
-    overflow: hidden;
-    background-image: url("/media/lp-banner.png");
-    background-size: contain;
-    /* background-position: 0% 30%;; */
-    padding: 100px 100px 50px 75px;
-    background-repeat: no-repeat;
-}
-
-.main-meet h4 {
-    margin-top: 75px;
-}
 
 .video-panel {
     padding: 75px;
